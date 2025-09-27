@@ -1,4 +1,4 @@
-# Step 6: Mipmap Exercise Answers
+# Step 6
 
 **1. How do mipmaps help performance?**  
 

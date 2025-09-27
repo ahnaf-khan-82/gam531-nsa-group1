@@ -6,7 +6,7 @@ Mipmaps help improve performance because they create smaller versions of a textu
 
 **2. Compare different minification filters and describe what looks different.**  
 
-Different minification filters affect how the texture looks when it is scaled down. The `NearestMipmapNearest` filter can look blocky or pixelated because it picks the closest mipmap level and the nearest texel. `LinearMipmapNearest` is a bit smoother, since it samples texels linearly within a single mipmap level, but it can still have noticeable jumps between levels. `NearestMipmapLinear` samples between two mipmap levels and is smoother, though slightly blurry. Finally, `LinearMipmapLinear` (trilinear filtering) blends both between texels and between mipmap levels, producing the smoothest and most natural appearance. In the program, pressing F1–F4 lets you test these filters live.
+Minification filters change how a texture looks when it is made smaller. `NearestMipmapNearest` looks blocky or pixelated. `LinearMipmapNearest` is smoother but can still jump between levels. `NearestMipmapLinear` is a bit blurry but more even. `LinearMipmapLinear` is the smoothest and looks natural. Pressing F1–F4 in the program lets you see these differences.
 
 **3. What happens if you don’t call `GL.GenerateMipmap()`?**  
 

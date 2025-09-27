@@ -2,7 +2,7 @@
 
 **1. How do mipmaps help performance?**  
 
-Mipmaps help improve performance because they create smaller versions of a texture in advance. When a texture is drawn far away or very small on the screen, OpenGL can use one of these smaller versions instead of the full-size texture. Using smaller textures means the graphics card has to do less work, which makes rendering faster and reduces flickering or visual glitches.
+Mipmaps improve performance by creating smaller versions of a texture. When the texture appears far away or small on the screen, OpenGL can use a smaller version instead of the full-size one. This makes rendering faster and reduces flickering or visual glitches.
 
 **2. Compare different minification filters and describe what looks different.**  
 

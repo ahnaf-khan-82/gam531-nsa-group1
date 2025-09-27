@@ -11,3 +11,8 @@ Minification filters change how a texture looks when it is made smaller. `Neares
 **3. What happens if you don’t call `GL.GenerateMipmap()`?**  
 
 If `GL.GenerateMipmap()` is not called, the GPU only has the original full-size texture. When the texture is scaled down or viewed from far away, it can look blocky, flickery, or noisy because there are no smaller versions to sample from. Mipmaps prevent these problems by giving the GPU the appropriate resolution for the distance, improving both visual quality and performance.
+
+
+# Output:
+
+<img width="876" height="660" alt="image" src="https://github.com/user-attachments/assets/7f0b4619-795b-42b7-a96f-44b839ad325a" />
